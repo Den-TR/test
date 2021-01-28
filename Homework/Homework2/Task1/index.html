@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Homework2/Task1">
+    <meta name="author" content="Denys Troianov">
+    <title>Table Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<header>
+    <h3>Table Form</h3>
+</header>
+<main>
+<body>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Value</th>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Sex</td>
+            <td>
+                <input type="radio" name="Sex" value="Male">Male<br>
+                <input type="radio" name="Sex" value="Female">Female
+            </td>
+        </tr>
+        <tr>
+            <td>Eye color</td>
+            <td><select>
+                    <option value="green">green</option>
+                    <option value="blue">blue</option>
+                    <option value="black">black</option>
+                    <option value="brown">brown</option>
+                </select></td>
+        </tr>
+        <tr>
+            <td>Check all that apply</td>
+            <td>
+                <input type="checkbox" name="Checking" value="Over 6 feet tall">Over 6 feet tall<br>
+                <input type="checkbox" name="Checking" value="Over 200 pounds">Over 200 pounds
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">Describe your athletic ability:
+                <textarea name="Athletic ability" id="textarea" rows="6"></textarea>
+            </td>
+        </tr>
+        <tr id="btn">
+            <td colspan="2"><button type="submit">Enter my information</button></td>
+        </tr>
+    </table>
+</main>
+    <br>
+    <footer>
+        Copyright &COPY; 2021 Denys Troianov
+        <address>Dnipro, Ukraine</address>
+    </footer>
+
+</body>
+
+</html>

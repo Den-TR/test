@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Homework2/Task2">
+    <meta name="author" content="Denys Troianov">
+    <title>The World of Fruit</title>
+    <link rel="stylesheet" href="/Homework/Homework2/Task2/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h3>The World of Fruit</h3>
+        </div>
+    </header>
+    <main>
+        <div class="LightYellov">
+            <div class="title">
+                <h3>Fruit Survey</h3>
+            </div>
+            <form action="app.php" method="get" name="AllForm" class="AllForm">
+                <p><label for="Name">Name</label>
+                    <input type="text" name="Name" id="Name" required>
+                </p>
+                <p><label for="Address">Address</label>
+                    <input type="text" name="Address" id="Address" required>
+                </p>
+                <p><label for="Email">Email</label>
+                    <input type="email" name="Email" id="Email" required>
+                </p>
+                <p><label for="Pieces">How many pieces of fruit do you eat per day?</label>
+                    <input type="radio" name="Pieces" id="Pieces" value="0" required>0<br>
+                    <input type="radio" name="Pieces" id="Pieces" value="1">1<br>
+                    <input type="radio" name="Pieces" id="Pieces" value="2">2<br>
+                    <input type="radio" name="Pieces" id="Pieces" value="3">More than 2
+                </p>
+                <p><label for="FavorFruit">My favourite fruit</label>
+                    <select name="FavorFruit" id="FavorFruit" multiple required>
+                        <option value="Apple">Apple</option>
+                        <option value="Banana">Banana</option>
+                        <option value="Plum">Plum</option>
+                        <option value="Pomegranata">Pomegranata</option>
+                        <option value="Orange">Orange</option>
+                        <option value="Apricots">Apricots</option>
+                        <option value="Lime">Lime</option>
+                    </select>
+                </p>
+                <p><label for="Like">Would you like a brochure?</label>
+                    <input type="checkbox" name="Like" value="Like" id="Like">
+                </p>
+                <p><input type="submit" value="Submit" id="btn"></p>
+            </form>
+        </div>
+    </main>
+    <br>
+    <footer>
+        Copyright &COPY; 2021 Denys Troianov
+        <address>Dnipro, Ukraine</address>
+    </footer>
+</body>
+
+</html>

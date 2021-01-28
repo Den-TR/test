@@ -1,0 +1,26 @@
+header{
+padding-left: 135px;
+}
+table{
+    border: 1px solid gray;
+    border-collapse: separate;
+    table-layout: fixed;
+    width: 370px;
+    height: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+td{
+    border: 1px solid gray;
+    border-collapse: separate;
+    table-layout: auto;
+}
+th{
+    background-color: rgb(209, 203, 219);
+}
+#textarea{
+    width: 98%;
+}
+#btn{
+    text-align: center;
+}

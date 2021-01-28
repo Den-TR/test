@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color:rgb(250, 206, 10);
+    line-height: 40px;
+    /* height: 40px; */
+    text-align: center;
+}
+body{
+    width: 600px;
+    /* text-align: center; */
+}
+
+.LightYellov{
+    background-color: rgb(245, 245, 150);
+    height: 500px;
+
+}
+
+.title{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.AllForm{
+    /* margin-right: 250px; */
+    /* text-align: right; */
+
+}
+
+#Name{
+    height: 20px;
+    border: 1px solid darkgray;
+    margin-bottom: 15px;
+/* margin-right: 100px; */
+}
+#Address{
+    height: 20px;
+    border: 1px solid darkgray;
+    margin-bottom: 15px;
+
+
+}
+
+#Email{
+    height: 20px;
+    border: 1px solid darkgray;
+    margin-bottom: 15px;
+
+}
+
+#Pieces{
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 15px;
+    clear: both;
+    text-align: right;
+
+}
+
+#FavorFruit{
+    border: 1px solid darkgray;
+    vertical-align: top;
+    margin-bottom: 15px;
+
+}
+
+#Like{
+    margin-bottom: 20px;
+}
+#btn{
+    padding: 2px 4px;
+    margin-left: 180px;
+}
+
+label{
+    display: inline-block;
+    text-align: right;
+    width: 180px;
+}
